@@ -12,7 +12,7 @@
     macros {
         BDAY: BDAY {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp N0 &kp N4 &kp N1 &kp N8 &kp N2 &kp N0 &kp N0 &kp N2>
                 ;
