@@ -50,7 +50,7 @@
                         >;
                 };
                 
-                media_layer { #1
+                media_layer {
                         bindings = <
    &kp C_PWR  &BDAY  &EMAIL  &none  &none  &none               &none  &bt BET_SEL 0  &bt BET_SEL 1  &bt BET_SEL 2  &none  &none
    &soft_off  &kp LGUI  &kp LALT  &kp TAB  &kp LSHFT  &none   &none  &kp C_PREV  &kp C_VOL_UP  &kp C_NEXT  &kp C_VOL_DN  &none
@@ -59,7 +59,7 @@
                         >;
                 };
 
-                num_layer { #2
+                num_layer {
                         bindings = <
    &trans    &kp N0 &kp N4 &kp N5 &kp N6 &kp G                  &none  &none  &none  &none  &none  &none
    &trans    &kp KP_DOT &kp N1 &kp N2 &kp N3 &kp V              &none  &none  &none  &none  &none  &none
@@ -67,7 +67,7 @@
                              &kp RET &trans  &none   &none  &none  &none
                         >;
                 };
-                lower_layer { #3
+                lower_layer {
                         bindings = <
    &kp  &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &kp TAB          &none   &kp F12 &kp F7 &kp F8 &kp F9 &none 
    &kp END  &kp DOWN &kp LEFT &kp UP &kp RIGHT &kp END         &none &kp F11 &kp F4 &kp F5 &kp F6 &none
@@ -76,7 +76,7 @@
                         >;
                 };
                 
-                sym_layer { #4
+                sym_layer {
                         bindings = <
    &kp  &kp HASH   &kp CARET &kp LT   &kp GT    &kp                      &kp &kp LBRC &kp RBRC &kp AMPS &kp PIPE &kp 
    &kp  &kp DIVIDE &kp MINUS &kp PLUS &kp EQUAL &kp                  &kp &kp LPAR &kp RPAR &kp AT &kp PRCNT &kp
