@@ -81,7 +81,7 @@
                         bindings = <
    &kp  &kp HASH   &kp CARET &kp LT   &kp GT    &kp                      &kp &kp LBRC &kp RBRC &kp AMPS &kp PIPE &kp 
    &kp  &kp SLASH &kp MINUS &kp PLUS &kp EQUAL &kp                  &kp &kp LPAR &kp RPAR &kp AT &kp PRCNT &kp
-   &kp  &kp EXCL   &kp UNDER &kp STAR &kp MULTIPLY  &kp              &kp &kp LBKT &kp RBKT &kp DLLR &kp BSLH &kp
+   &none  &none EXCL   &kp UNDER &kp STAR &kp TILDE  &none              &none  &none LBKT &kp RBKT &kp DLLR &kp BSLH &none
                   &kp  &kp  &kp    &kp &kp  &kp  
                         >;
                 };
