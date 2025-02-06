@@ -12,21 +12,21 @@
     macros {
         BDAY: BDAY {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             bindings
                 = <&macro_tap &kp N0 &kp N4 &kp N1 &kp N8 &kp N2 &kp N0 &kp N0 &kp N2>
                 ;
         };
         EMAIL: EMAIL {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp B &kp M &kp D &kp A &kp R &kp B &kp Y &kp N1 &kp N8 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>
                 ;
         };
         CTVE: CTVE {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
                 , <&macro_tap &kp C &kp T &kp V>
