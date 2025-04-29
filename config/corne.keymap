@@ -37,16 +37,20 @@
     };
 };
 
+&sk {
+    quick-release;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
                         bindings = <
-   &mt LGUI ESC &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp EQUAL
+   &mt LGUI ESC &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &kp LCTRL &kp A &kp R &kp S &kp T &kp G              &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V              &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &caps_word 
-                  &lt 1 DEL &lt 2 BSPC &lt 3 TAB        &kp RSHFT &lt 4 SPACE &kp RET
+                  &lt 1 DEL &lt 2 BSPC &lt 3 TAB        &sk RSHFT &lt 4 SPACE &kp RET
                         >;
                 };
                 
@@ -61,7 +65,7 @@
 
                 num_layer {
                         bindings = <
-   &kp PLUS  &kp MINUS  &kp N7 &kp N8 &kp N9 &kp CARET          &none  &none  &none  &none  &none  &none
+   &kp CARET &kp MINUS  &kp N7 &kp N8 &kp N9 &kp PLUS          &none  &none  &none  &none  &none  &none
    &trans    &kp N0     &kp N4 &kp N5 &kp N6 &kp EQUAL          &none  &none  &none  &none  &none  &none
    &trans    &kp DOT    &kp N1 &kp N2 &kp N3 &kp SLASH          &none  &none  &none  &none  &none  &none
                              &kp RET  &trans &none          &none  &none  &none
