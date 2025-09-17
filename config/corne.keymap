@@ -43,17 +43,16 @@
 };
 
 / {
-        behaviors {
-        // Tap = Sticky Left Shift
-        // Hold = Left Alt
+    behaviors {
         mt_alt_sticky_shift: behavior-mod-tap {
             compatible = "zmk,behavior-mod-tap";
             label = "MT_ALT_STICKY_SHIFT";
-            #binding-cells = <0>;
-            bindings = <&sk LSHFT>;
-            mods = <(MOD_LALT)>;
+            #binding-cells = <2>;   // expects tap and hold bindings
+            bindings = <&sk LSHIFT>, <&kp LALT>;
         };
     };
+};
+
 
         keymap {
                 compatible = "zmk,keymap";
