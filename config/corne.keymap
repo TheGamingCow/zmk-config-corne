@@ -48,9 +48,9 @@
 
                 default_layer {
                         bindings = <
-   &mt LGUI ESC &kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
+   &mt LGUI ESC &kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp MINUS
    &sk LCTRL &kp A &kp R &kp S &kp T &kp G              &kp M &kp N  &kp E     &kp I   &kp O    &kp APOS
-   &sk SHFT &kp Z &kp X &kp C &kp D &kp V              &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &caps_word 
+   &sk LSHFT &kp Z &kp X &kp C &kp D &kp V               &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &caps_word 
                   &lt 1 DEL &lt 2 BSPC &lt 3 TAB        &sk RSHFT &lt 4 SPACE &kp RET
                         >;
                 };
