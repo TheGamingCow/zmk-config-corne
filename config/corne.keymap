@@ -49,7 +49,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";      // or "balanced" if you prefer
             tapping-term-ms = <200>;
-            bindings = <&sk LALT>, <&kp LSHFT>;
+            bindings = <&sk LALT &kp LSHFT>;
             display-name = "Alt/Hold + Shift/Tap";
         };
     };
